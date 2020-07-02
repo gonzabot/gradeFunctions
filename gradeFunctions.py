@@ -72,8 +72,8 @@ def calc_grade(grade):
     elif 60 <= grade < 63:
         return 'D-'
     
-print 'Yor Math score is '+ str(math_score) + ', you got a ' + str(calc_grade(math_score)) + '.'
-print 'Yor English score is '+ str(english_score) + ', you got a ' + str(calc_grade(english_score)) + '.'
-print 'Yor PE score is '+ str(pe_score) + ', you got a ' + str(calc_grade(pe_score)) + '.'
-print 'Yor Science score is '+ str(science_score) + ', you got a ' + str(calc_grade(science_score)) + '.'
-print 'Yor Art score is '+ str(art_score) + ', you got a ' + str(calc_grade(art_score)) + '.'
+print 'Your Math score is '+ str(math_score) + ', you got a ' + str(calc_grade(math_score)) + '.'
+print 'Your English score is '+ str(english_score) + ', you got a ' + str(calc_grade(english_score)) + '.'
+print 'Your PE score is '+ str(pe_score) + ', you got a ' + str(calc_grade(pe_score)) + '.'
+print 'Your Science score is '+ str(science_score) + ', you got a ' + str(calc_grade(science_score)) + '.'
+print 'Your Art score is '+ str(art_score) + ', you got a ' + str(calc_grade(art_score)) + '.'
