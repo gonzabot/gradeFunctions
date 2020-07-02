@@ -71,6 +71,8 @@ def calc_grade(grade):
         return 'D'
     elif 60 <= grade < 63:
         return 'D-'
+    else:
+        return 'F'
     
 print 'Your Math score is '+ str(math_score) + ', you got a ' + str(calc_grade(math_score)) + '.'
 print 'Your English score is '+ str(english_score) + ', you got a ' + str(calc_grade(english_score)) + '.'
